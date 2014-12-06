@@ -159,7 +159,7 @@ public class login_user extends javax.swing.JFrame {
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
         // TODO add your handling code here:
         if (RUser.isSelected()) {
-            if ("egan".equals(txtUser.getText()) && "egan".equals(txtPass.getText())) {
+            if ("eguana".equals(txtUser.getText()) && "eguana".equals(txtPass.getText())) {
                 halamanUtama h = new halamanUtama();
                 h.setVisible(true);
                 dispose();
