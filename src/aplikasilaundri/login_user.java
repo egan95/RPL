@@ -167,7 +167,7 @@ public class login_user extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null,"Invalid Username and Password","Error",JOptionPane.INFORMATION_MESSAGE);
             }
         } else if (RAdmin.isSelected()){
-            if ("admin".equals(txtUser.getText()) && "admin".equals(txtPass.getText())) {
+            if ("egan95".equals(txtUser.getText()) && "egan95".equals(txtPass.getText())) {
                 admin h = new admin();
                 h.setVisible(true);
                 dispose();
